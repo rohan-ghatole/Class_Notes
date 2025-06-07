@@ -356,7 +356,7 @@ Day 9 : 21st Apr. 2025
 		git log --oneline -3 		# To get the last 3 Commits 
 		git log -3 
 		
-		git log --stat -1	
+		git log --stat -1	         # to get the file name and along with changes
 
 	git show <commit_id> 			# Get the details of the commit at the record level 
 		
