@@ -103,7 +103,7 @@ su - devopsadmin
 ssh-keygen -t ecdsa -b 521										#ubuntu 22.04 or higher version of ubuntu				
 
 
-ls ~/.ssh 
+ls ~/.ssh and cd .ssh
 
 #You should see following two files:
 
