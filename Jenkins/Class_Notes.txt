@@ -280,7 +280,7 @@ Day 17 : 7th May. 2025
 CICD Pipeline - composed on various stages
 
 pipeline {
-    agent any
+    agent any                                 ----> # Agent any means here source code is in build server and agent any can fetch the source code tp stages
 
     stages {
         stage('SCM_Checkout') {
